@@ -16,3 +16,6 @@ Automatically sorts downloaded university PDFs into correct module folders, base
 
 ## Status
 - Work in progress
+
+## Run 
+- Configure test PDF and your module rules, then run 'Main.kt'. 
