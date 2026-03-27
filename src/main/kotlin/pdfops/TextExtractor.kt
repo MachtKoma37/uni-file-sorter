@@ -1,4 +1,4 @@
-package pdf
+package pdfops
 
 import org.apache.pdfbox.Loader
 import org.apache.pdfbox.text.PDFTextStripper

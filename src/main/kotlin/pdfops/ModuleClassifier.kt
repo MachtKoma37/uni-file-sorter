@@ -1,10 +1,10 @@
-package rules
+package pdfops
 
 import model.ClassificationResult
 import model.ModuleRule
 
-fun classifyText(text: String, rules: List<ModuleRule>): ClassificationResult {
-    val lowerText = text.lowercase()
+fun classifyText(pdfText: String, rules: List<ModuleRule>): ClassificationResult {
+    val lowerText = pdfText.lowercase()
 
     var bestRule: ModuleRule? = null
     var bestScore = 0
