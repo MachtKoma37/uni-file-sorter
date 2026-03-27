@@ -5,7 +5,7 @@ Automatically sorts downloaded university PDFs into correct module folders, base
 ## Features
 - Monitors the downloads folder for new PDFs.
 - Extracts text from PDFs.
-- Sorts PDFs to the module folders, via keywords.
+- Sorts PDFs to the module folders using keywords.
 - Places unclear PDFs into unsorted folder.
 
 ## MVP 
@@ -15,7 +15,13 @@ Automatically sorts downloaded university PDFs into correct module folders, base
 - Move PDF.
 
 ## Status
-- Work in progress
+- Current version works.
+- Still work in progress.
 
 ## Run 
-- Configure test PDF and your module rules, then run 'Main.kt'. 
+- Adjust the paths in `AppConfig.kt`.
+- Run the project.
+
+## Notes
+- Invalid PDFs are ignored.
+- Sorts existing PDFs too. 
